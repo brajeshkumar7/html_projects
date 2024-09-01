@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Username:</label>
+        <input type="text" name="username" placeholder="enter your fullname" value="brajesh" id="name" required><br>
+        <label for="universityname">Universityname</label>
+        <input type="text" name="universityname" value="iiit sonepat" id="universityname" required><br>
+        <label for="email"> Email:</label>
+        <input type="email" name="email" placeholder="enter your email" value="abs@mail" id="email" required><br>
+        <label for="contactNo">ContactNo:</label>
+        <input type="number" name="contactnumber" placeholder="enter your contact number" required id="contactNo"><br>
+        <label for="address">type ur address:</label>
+        <input type="address" id="address" name="address" placeholder="enter ur address" required><br>
+        <!--taking input as url -->
+        <label for="url">enter ur linkedin url:</label>
+        <input type="url" id="url" name="linkedin url" placeholder="enter ur linkedin url"><br>
+        <label for="rollno">Rollno:</label>
+        <input type="number" name="rollno" placeholder="enter ur rollno." id="rollno" required><br>
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="date of birth" placeholder="enter your DOB" id="DOB" required><br>
+        <label for="files">Marksheet: </label>
+        <input type="file" name="marksheet" required id="files"><br>
+        <label for="color">Color of dress:</label>
+        <input type="color" name="color of dress" value="red" id="color"><br>
+        <label for="range">how much interested:</label>
+        <input type="range" name="interested" id="range"><br>
+        <label for="gender">gender:</label>
+        <!--name for the options of the radio should be same-->
+        <input type="radio" id="gender" name="gender">male
+        <input type="radio" id="gender" name="gender">female
+        <input type="radio" id="gender" name="gender">other<br>
+        <label for="sure">favourite fields:</label><br>
+        <input type="checkbox" id="sure" name="favourite field">software<br>
+        <input type="checkbox" id="sure" name="favourite field">machine learning<br>
+        <input type="checkbox" id="sure" name="favourite field">AI<br>
+        <input type="checkbox" id="sure" name="favourite field">data science<br>
+        <!--must use a value for the button-->
+        <input type="button" name="button" value="clickme">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset"><br>
+        <label for="select">choose ur prefer work places:</label>
+        <!--we can either use attributes for select and option or not-->
+        <select name="prefer work places" id="select">
+            <option>india</option>
+            <option value="us">us</option>
+            <option value="europe">europe</option>
+            <option value="uk">uk</option>
+        </select><br>
+        <label for="textarea">comment:</label>
+        <textarea name="users comment" id="textarea" cols="10" rows="10">comment here ur doubts</textarea>
+    </form>
+</body>
+
+</html>
